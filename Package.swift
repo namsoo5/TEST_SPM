@@ -12,6 +12,10 @@ let package = Package(
             name: "NaverSPM",
             targets: ["NaverSPM"]
         ),
+        .library(
+            name: "NaverThirdPartyLogin",
+            targets: ["NaverThirdPartyLogin"]
+        )
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -23,6 +27,11 @@ let package = Package(
         .target(
             name: "NaverSPM",
             dependencies: []
+        ),
+        .binaryTarget(
+            name: "NaverThirdPartyLogin",
+            url: "https://github.com/namsoo5/TEST_SPM/NaverThirdPartyLogin.xcframework.zip",
+            checksum: "32730abd41268b3ba30477dd897933627acaa30a0d00056bbeaf2df1578abfc5"
         )
     ],
     swiftLanguageVersions: [.v5]
