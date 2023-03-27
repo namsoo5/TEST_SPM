@@ -30,7 +30,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "NaverThirdPartyLogin",
-            url: "https://github.com/namsoo5/TEST_SPM/NaverThirdPartyLogin.xcframework.zip",
+            url: "https://github.com/namsoo5/TEST_SPM/releases/download/0.0.2/NaverThirdPartyLogin.xcframework.zip",
             checksum: "32730abd41268b3ba30477dd897933627acaa30a0d00056bbeaf2df1578abfc5"
         )
     ],
